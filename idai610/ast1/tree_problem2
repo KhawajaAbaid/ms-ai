@@ -1,0 +1,20 @@
+digraph {
+	graph [rankdir=TB]
+	4932186624 [label="Preferred-foot" shape=record]
+	4931108400 [label=League shape=record]
+	4931539008 [label=False shape=record]
+	4932189888 [label=True shape=record]
+	4931543760 [label=False shape=record]
+	4929991456 [label=True shape=record]
+	4930396592 [label=False shape=record]
+	4929809360 [label=Position shape=record]
+	4930436080 [label=True shape=record]
+	4929809360 -> 4930396592
+	4932186624 -> 4929809360
+	4931108400 -> 4931543760
+	4929809360 -> 4930436080
+	4932186624 -> 4931108400
+	4931108400 -> 4929991456
+	4929809360 -> 4931539008
+	4931108400 -> 4932189888
+}
